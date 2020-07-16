@@ -1,14 +1,15 @@
-<%@ Page Language="VB" %>
-<html>
-   <body>
+<html xmlns="www.w3.org/1999/xhtml">
+<head runat="server">
+	<title></title>
+</head>
+<body>
+	<form id="form1" runat="server">
+	<div>
 
-      <h1>Hello World</h1>
-      <h1>ASP.NET Style</h1>
-      <h2>Using VB .NET</h2>
+	<%Response. Write( "HeIIo World"); %>
 
-      <br/>
-      <h2>The date and time is <% =DateTime.Now(  ) %>.</h2>
-
-   </body>
+	</div>
+	</form>
+</body>
 </html>
 
